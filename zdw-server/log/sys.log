@@ -1,0 +1,21 @@
+2020-12-01 14:55:02,712 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 6
+2020-12-01 14:56:49,245 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-12-01 14:56:52,961 INFO (StartupInfoLogger.java:61)- Started ZdwServerApplication in 5.119 seconds (JVM running for 6.329)
+2020-12-01 14:57:29,659 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: select * from sys_role
+2020-12-01 14:57:29,677 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
+2020-12-01 14:57:29,685 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: select * from sys_user order by id desc limit ?,?
+2020-12-01 14:57:29,687 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 10(Integer)
+2020-12-01 14:57:29,726 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 4
+2020-12-01 14:57:29,738 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 5
+2020-12-01 14:57:29,739 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: select count(*) from sys_user
+2020-12-01 14:57:29,740 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
+2020-12-01 14:57:29,854 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2020-12-01 14:57:31,816 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: select * from sys_menu WHERE url is not null
+2020-12-01 14:57:31,817 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
+2020-12-01 14:57:31,853 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: select * from sys_role order by id limit ?,?
+2020-12-01 14:57:31,854 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 10(Integer)
+2020-12-01 14:57:31,857 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 6
+2020-12-01 14:57:31,898 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 4
+2020-12-01 14:57:31,899 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: select count(*) from sys_role
+2020-12-01 14:57:31,900 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
+2020-12-01 14:57:32,052 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
